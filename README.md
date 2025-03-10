@@ -1,6 +1,6 @@
 # Balls on Pluto
 ![image](https://github.com/user-attachments/assets/bade5b2a-ddc9-4cbe-8dc4-159917cc476f)
-![image](https://github.com/user-attachments/assets/7bf1fda8-2c94-4e20-8e2e-810130c22a8d)
+
 
 ## Description
 "**Balls on Pluto**" is a 3D scene renderer built using **OpenGL** and **Python**. The project features an interactive environment with dynamic lighting, shadow mapping, skybox rendering, and various 3D models, including the player character, terrain, and collectible objects. This project is designed to showcase real-time 3D rendering techniques and interactive scene controls.
@@ -101,3 +101,13 @@ Make sure you have Python installed on your machine. Then, install the required 
 
 ```bash
 pip install PyOpenGL glfw imgui freetype numpy pillow
+
+![image](https://github.com/user-attachments/assets/7bf1fda8-2c94-4e20-8e2e-810130c22a8d)
+![image](https://github.com/user-attachments/assets/defc9a8f-7a7f-4014-841d-34ae1cec47f3)
+![image](https://github.com/user-attachments/assets/32ffbead-7247-46b3-8bdc-bc4e347dce25)
+![image](https://github.com/user-attachments/assets/43ac4e16-1f5f-4724-9f0b-075c2c13070e)
+![image](https://github.com/user-attachments/assets/0f1fad4e-5267-49a2-af3e-6ab8b11af5c0)
+
+
+
+
