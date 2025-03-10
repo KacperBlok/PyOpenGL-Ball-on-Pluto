@@ -1,94 +1,101 @@
+# Balls on Pluto
 
+## Description
+"**Balls on Pluto**" is a 3D scene renderer built using **OpenGL** and **Python**. The project features an interactive environment with dynamic lighting, shadow mapping, skybox rendering, and various 3D models, including the player character, terrain, and collectible objects. This project is designed to showcase real-time 3D rendering techniques and interactive scene controls.
 
-Project Name: Balls on Pluto
+## Main Features
+- **Two camera modes**: 
+  - Third-Person (TPP)
+  - Free mode
+- **Dynamic lighting system** with multiple light sources
+- **Real-time shadow mapping**
+- **Skybox** with texture-switching capability
+- **Particle system** (falling leaves animation)
+- **Terrain collision detection**
+- **Ball collection system** with score counter
+- **FPS counter** and **position display**
+- **Context menu** for scene control
+- **Dynamic terrain generation** with various objects (rocks, cacti, grass, etc.)
 
-Description:
-The project presents a 3D scene renderer built using OpenGL and Python. It features an interactive environment with dynamic lighting, shadow mapping, skybox rendering, and various 3D models, including the player character, terrain, and collectible objects.
-
-Main Features:
-- Two camera modes: Third-Person (TPP) and Free
-- Dynamic lighting system with multiple light sources
-- Real-time shadow mapping
-- Skybox with texture-switching capability
-- Particle system (falling leaves animation)
-- Terrain collision detection
-- Ball collection system with a score counter
-- FPS counter and position display
-- Context menu for scene control
-- Dynamic terrain generation with various objects (rocks, cacti, grass, etc.)
-
-Technical Details:
+## Technical Details
 The project uses the following technologies and libraries:
-- OpenGL for 3D rendering
-- GLFW for window management and input handling
-- GLM for mathematical operations
-- ImGui for user interface
-- Freetype for text rendering
-- PIL for texture loading
-- NumPy for numerical operations
+- **OpenGL**: For 3D rendering
+- **GLFW**: For window management and input handling
+- **GLM**: For mathematical operations (transformations, vectors, matrices)
+- **ImGui**: For user interface rendering
+- **Freetype**: For text rendering
+- **PIL**: For texture loading
+- **NumPy**: For numerical operations
 
-Main Components:
-1. Camera System
-   - Switch between TPP and Free mode
-   - Smooth movement and rotation
+## Main Components
 
-2. Lighting System
-   - Multiple light sources with different colors
-   - Support for directional and point lights
-   - Blinn-Phong lighting model
+### 1. Camera System
+- Switch between Third-Person (TPP) and Free camera modes
+- Smooth movement and rotation with camera height control (in Free mode)
 
-3. Object System
-   - Various 3D models with textures
-   - Collision detection
-   - Dynamic terrain generation
+### 2. Lighting System
+- Multiple light sources (directional and point lights) with different colors
+- Support for **Blinn-Phong** and **Phong** lighting models
 
-4. User Interface
-   - FPS counter
-   - Position display
-   - Score counter
-   - Context menu for scene settings
+### 3. Object System
+- Various 3D models (terrain, rocks, cacti, balls, etc.)
+- **Collision detection** for terrain and objects
+- **Dynamic terrain generation** with different objects (rocks, cacti, grass, etc.)
 
-Controls:
+### 4. User Interface
+- **FPS counter**
+- **Position display**
+- **Score counter**
+- **Context menu** for scene settings (lighting control, skybox texture switching, particle effects)
 
-- **Basic Movement:
-  - `W` - Move forward
-  - `S` - Move backward
-  - `A` - Rotate left
-  - `D` - Rotate right
-  - `C` - Switch camera mode (TPP/Free)
+## Controls
 
-- Camera Height Control (Free Mode):
-  - `0` - Raise camera
-  - `9` - Lower camera
+### Basic Movement:
+- `W`: Move forward
+- `S`: Move backward
+- `A`: Rotate left
+- `D`: Rotate right
+- `C`: Switch camera mode (TPP/Free)
 
-- Mouse Control:
-  - `Right Click` - Open context menu
+### Camera Height Control (Free Mode):
+- `0`: Raise camera
+- `9`: Lower camera
 
-**Context Menu Functions:
-- Select skybox texture
-- Control lighting
-   - Turn lighting on/off
-   - Switch between Phong and Blinn-Phong lighting models
-   - Turn light animation on/off
-   - Control individual light sources
-- Turn falling leaves effect on/off
-- Hummingbird effects (Normal/Reflecting/Refracting)
+### Mouse Control:
+- **Right Click**: Open context menu
 
-Gameplay Elements:
-- Collect balls scattered across the terrain
-- Navigate through obstacles (rocks, cacti)
-- Explore the terrain while avoiding collisions with objects
-- Track the score of collected balls
+## Context Menu Functions:
+- **Select skybox texture**
+- **Control lighting**:
+  - Turn lighting on/off
+  - Switch between Phong and Blinn-Phong lighting models
+  - Turn light animation on/off
+  - Control individual light sources
+- **Turn falling leaves effect on/off**
+- **Hummingbird effects** (Normal/Reflecting/Refracting)
 
-Performance Features:
-- Efficient shadow mapping
-- Optimized terrain collision detection
-- Height calculation caching system
-- Dynamic instancing for particle objects
+## Gameplay Elements:
+- **Collect balls** scattered across the terrain
+- **Navigate through obstacles** (rocks, cacti)
+- **Explore the terrain** while avoiding collisions with objects
+- Track the **score** of collected balls
 
-Other:
-- Terrain includes height-based collision detection
-- Objects have individual collision boundaries
-- Scene includes proper depth testing and alpha blending
-- Support for various screen resolutions with proper scaling
+## Performance Features:
+- **Efficient shadow mapping**
+- Optimized **terrain collision detection**
+- **Height calculation caching system**
+- **Dynamic instancing** for particle objects
 
+## Other Features:
+- Terrain includes **height-based collision detection**
+- Objects have **individual collision boundaries**
+- Scene includes **proper depth testing** and **alpha blending**
+- Support for various screen resolutions with **proper scaling**
+
+## Installation & Setup
+
+### Prerequisites:
+Make sure you have Python installed on your machine. Then, install the required dependencies using `pip`:
+
+```bash
+pip install PyOpenGL glfw imgui freetype numpy pillow
