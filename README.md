@@ -1,4 +1,6 @@
 # Balls on Pluto
+![image](https://github.com/user-attachments/assets/bade5b2a-ddc9-4cbe-8dc4-159917cc476f)
+![image](https://github.com/user-attachments/assets/7bf1fda8-2c94-4e20-8e2e-810130c22a8d)
 
 ## Description
 "**Balls on Pluto**" is a 3D scene renderer built using **OpenGL** and **Python**. The project features an interactive environment with dynamic lighting, shadow mapping, skybox rendering, and various 3D models, including the player character, terrain, and collectible objects. This project is designed to showcase real-time 3D rendering techniques and interactive scene controls.
